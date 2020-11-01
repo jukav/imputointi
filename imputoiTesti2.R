@@ -173,7 +173,7 @@ tst200198 <- readRDS("tst200198.rds")
 set.seed(0)
 
 t <- 20 #poistettujen ja imputoitujen havaintojen prosenttiosuus matriisista
-k <- 3 #imputointitoistojen lukumäärä
+k <- 3 #imputointitoistojen lukumÃ¤Ã¤rÃ¤
 
 testaa(tst5050, t, k, meanImpute, "tst5050")
 testaa(tst5050, t, k, colMeanImpute, "tst5050")
